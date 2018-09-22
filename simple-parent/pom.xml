@@ -20,6 +20,34 @@
     <module>simple-persist</module>
     <module>simple-webapp</module>
   </modules>
+         
+<profiles>
+<profile>
+     <id>webapp</id>
+ <modules>
+    <module>simple-persist</module>
+    <module>simple-webapp</module>
+  </modules>
+</profile>
+ <profile>
+     <id>persist</id>
+ <modules>
+    <module>simple-persist</module>
+    <module>simple-webapp</module>
+  </modules>
+</profile>
+         <profile>
+     <id>weather</id>
+ <modules>
+    <module>simple-persist</module>
+    <module>simple-webapp</module>
+  </modules>
+</profile>
+         
+         
+         
+         
+</profiles>
 
   <build>
     <pluginManagement>
